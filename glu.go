@@ -5,7 +5,7 @@ package glu
 // #include <GL/glu.h>
 //
 import "C"
-import "github.com/banthar/gl"
+import "github.com/nkostelnik/gl"
 import "unsafe"
 
 func Build2DMipmaps(target gl.GLenum, internalFormat int, width, height int, format gl.GLenum, data interface{}) int {
